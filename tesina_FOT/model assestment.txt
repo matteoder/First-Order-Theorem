@@ -1,0 +1,30 @@
+con feature selection 
+('The cross-validated F1-score of your algorithm is ', 0.5619936679057161)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.44603473773837043)
+
+('The cross-validated F1-score of your algorithm is ', 0.5378529659089074)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.42009248674390276)
+
+('The cross-validated F1-score of your algorithm is ', 0.5922368070979538)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.4846475977549428)
+
+senza niente
+
+('The cross-validated F1-score of your algorithm is ', 0.564136879136161)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.45069040222571904)
+
+('The cross-validated F1-score of your algorithm is ', 0.5220235615131869)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.3984019104942666)
+
+('The cross-validated F1-score of your algorithm is ', 0.5912883393525039)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.4836839303117329)
+
+pca
+('The cross-validated F1-score of your algorithm is ', 0.5639946713101528)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.45063884212296956)
+
+('The cross-validated F1-score of your algorithm is ', 0.5334405299436282)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.4128105589722675)
+
+('The cross-validated F1-score of your algorithm is ', 0.582326186790439)
+('The cross-validated Balanced Accuracy of your algorithm is ', 0.47517385379836535)

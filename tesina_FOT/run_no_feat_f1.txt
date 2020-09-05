@@ -1,0 +1,55 @@
+{'alpha': 0.0001, 'activation': 'relu', 'hidden_layer_sizes': (100, 30)}
+  % self.max_iter, ConvergenceWarning)
+Fitting 10 folds for each of 20 candidates, totalling 200 fits
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done  42 tasks      | elapsed:   22.5s
+[Parallel(n_jobs=4)]: Done 192 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=4)]: Done 200 out of 200 | elapsed:  2.3min finished
+{'n_neighbors': 10, 'weights': 'distance', 'p': 1}
+              precision    recall  f1-score   support
+
+           1       0.45      0.50      0.47       213
+           2       0.59      0.43      0.50       107
+           3       0.45      0.39      0.42       149
+           4       0.37      0.33      0.35       126
+           5       0.39      0.35      0.37       133
+           6       0.72      0.80      0.76       495
+
+   micro avg       0.57      0.57      0.57      1223
+   macro avg       0.50      0.47      0.48      1223
+weighted avg       0.56      0.57      0.56      1223
+
+Accuracy nel test set: 46.6%
+f1 score nel test set: 55.95%
+----------------------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           1       0.44      0.43      0.43       213
+           2       0.61      0.19      0.29       107
+           3       0.42      0.44      0.43       149
+           4       0.35      0.29      0.32       126
+           5       0.31      0.38      0.34       133
+           6       0.74      0.82      0.78       495
+
+   micro avg       0.55      0.55      0.55      1223
+   macro avg       0.48      0.43      0.43      1223
+weighted avg       0.55      0.55      0.54      1223
+
+Accuracy nel test set: 42.54%
+f1 score nel test set: 53.65%
+----------------------------------------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           1       0.48      0.48      0.48       213
+           2       0.54      0.47      0.50       107
+           3       0.43      0.47      0.45       149
+           4       0.42      0.38      0.40       126
+           5       0.46      0.39      0.42       133
+           6       0.76      0.81      0.78       495
+
+   micro avg       0.59      0.59      0.59      1223
+   macro avg       0.51      0.50      0.51      1223
+weighted avg       0.58      0.59      0.59      1223
+
+Accuracy nel test set: 49.98%
+f1 score nel test set: 58.6%
